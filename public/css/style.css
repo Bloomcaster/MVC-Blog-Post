@@ -1,0 +1,57 @@
+:root {
+    --dark-purple: #68386d;
+    --hyper-pink: #e31ee0;
+    --powder-pink: #e290f5;
+    --dark-purple: #28112B;
+    --dark-lilac: #8f86c4;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--powder-pink);
+    font-size: 16px;
+  }
+  
+  header {
+    background-color: var(--dark-purple);
+    border-bottom: 1px solid black ;
+  }
+  
+  h1 a {
+    color: var(--dark-lilac);
+    font-size: 50px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: var(--hyper-pink);
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 6px;
+  }
+  
+  .card-header {
+    background-color: #ccc;
+    display: block;
+  }
+  
+  button a {
+    color: white;
+  }
+  
+  .post {
+    margin: 5px;
+  }
+  
+  .col {
+    margin: 5px;
+  }
+  
+  .centerthisbutton {
+    text-align: center;
+  }
