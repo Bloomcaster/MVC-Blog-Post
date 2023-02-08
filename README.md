@@ -42,3 +42,15 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 
 This project is the use of the MVC model for coding. Needed to use express-handlebars, mysql, sequelize. There is also a use of the dotenv package, bcrypt package for passwords as well as express-session and connect-session-sequelize packages for authentication. The express-session package is working with cookie expiration times.
+
+Installation:
+Download it through Github
+Ensure express is installed
+Ensure express-handlebars is installed
+Ensure express-session is installed
+Ensure mysql2 is installed
+Ensure sequelize is installed
+Ensure connect-session-sequelize is installed
+Ensure dotenv is installed
+Ensure bcrypt is installed
+To connect to the database, once files are downloaded to you computer, you will need to use a .env file to input your password and username for your mysql.
