@@ -71,7 +71,7 @@ Type npm i connect-session-sequelize into terminal
 Navigate to the db folder
 Type mysql -u root -p into terminal
 Enter your password into terminal
-Type source schema.sql into terminal
+Type source db/schema.sql into terminal
 Type quit into terminal
 Navigate back to the tech_blog in terminal
 Type node seeds/index.js so the seeds will populate the database

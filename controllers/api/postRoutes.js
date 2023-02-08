@@ -1,7 +1,7 @@
 const router = require('express').Router();
-const { Post } = require('../..models');
+const { Post } = require('../../models');
 const sequelize = require('../../config/connection');
-const withAuth = require('../..utils/auth');
+const withAuth = require('../../utils/auth');
 const { json } = require('body-parser');
 
 router.post('/', withAuth, async (req, res) => {
