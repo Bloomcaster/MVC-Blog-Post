@@ -15,7 +15,7 @@ Comment.init(
         
         },
         comment_content: {
-            type: Datypes.STRING,
+            type: DataTypes.STRING,
             allowNull: false,
             unique: true,
 
@@ -44,4 +44,4 @@ Comment.init(
     }
 );
 
-model.exports = Comment;
+module.exports = Comment;
