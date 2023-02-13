@@ -77,3 +77,25 @@ Navigate back to the tech_blog in terminal
 Type node seeds/index.js so the seeds will populate the database
 Type npm start into the terminal
 You will see the Now Listening indication and can access on your localhost
+
+How to:
+Open terminal and navigate to tech_blog folder
+Type npm init -y into terminal to create a new .json file
+Type npm i into terminal
+Type npm i express into terminal
+Type npm i express-handlebars into terminal
+Type npm i express-session into terminal
+Type npm i mysql2 into terminal
+Type npm i sequelize into terminal
+Type npm i dotenv into terminal
+Type npm i bcrypt into terminal
+Type npm i connect-session-sequelize into terminal
+Navigate to the db folder
+Type mysql -u root -p into terminal
+Enter your password into terminal
+Type source schema.sql into terminal
+Type quit into terminal
+Navigate back to the tech_blog in terminal
+Type node seeds/index.js so the seeds will populate the database
+Type npm start into the terminal
+You will see the Now Listening indication and can access on your localhost
