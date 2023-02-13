@@ -1,5 +1,5 @@
 const router = require('express').Router();
-
+//renamed routes to follow more standard practics for folder structure
 const userRoutes = require('./userRoutes.js');
 const postRoutes = require('./postRoutes.js');
 const commentRoutes = require('./commentRoutes.js');
