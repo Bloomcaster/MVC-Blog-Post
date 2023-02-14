@@ -44,58 +44,37 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 This project is the use of the MVC model for coding. Needed to use express-handlebars, mysql, sequelize. There is also a use of the dotenv package, bcrypt package for passwords as well as express-session and connect-session-sequelize packages for authentication. The express-session package is working with cookie expiration times.
 
 Installation:
-Download it through Github
-Ensure express is installed
-Ensure express-handlebars is installed
-Ensure express-session is installed
-Ensure mysql2 is installed
-Ensure sequelize is installed
-Ensure connect-session-sequelize is installed
-Ensure dotenv is installed
-Ensure bcrypt is installed
+1. Download it through Github
+2. Ensure express is installed
+3. Ensure express-handlebars is installed
+4. Ensure express-session is installed
+5. Ensure mysql2 is installed
+6. Ensure sequelize is installed
+7. Ensure connect-session-sequelize is installed
+8. Ensure dotenv is installed
+8. Ensure bcrypt is installed
+
 To connect to the database, once files are downloaded to you computer, you will need to use a .env file to input your password and username for your mysql.
 
 Back-end after cloning or downloading repo files:
 
-Open terminal and navigate to MVC BLOG-POST folder
-Type npm init -y into terminal to create a new .json file
-Type npm i into terminal
-Type npm i express into terminal
-Type npm i express-handlebars into terminal
-Type npm i express-session into terminal
-Type npm i mysql2 into terminal
-Type npm i sequelize into terminal
-Type npm i dotenv into terminal
-Type npm i bcrypt into terminal
-Type npm i connect-session-sequelize into terminal
-Navigate to the db folder
-Type mysql -u root -p into terminal
-Enter your password into terminal
-Type source db/schema.sql into terminal
-Type quit into terminal
-Navigate back to the tech_blog in terminal
-Type node seeds/index.js so the seeds will populate the database
-Type npm start into the terminal
-You will see the Now Listening indication and can access on your localhost
-
-How to:
-Open terminal and navigate to tech_blog folder
-Type npm init -y into terminal to create a new .json file
-Type npm i into terminal
-Type npm i express into terminal
-Type npm i express-handlebars into terminal
-Type npm i express-session into terminal
-Type npm i mysql2 into terminal
-Type npm i sequelize into terminal
-Type npm i dotenv into terminal
-Type npm i bcrypt into terminal
-Type npm i connect-session-sequelize into terminal
-Navigate to the db folder
-Type mysql -u root -p into terminal
-Enter your password into terminal
-Type source schema.sql into terminal
-Type quit into terminal
-Navigate back to the tech_blog in terminal
-Type node seeds/index.js so the seeds will populate the database
-Type npm start into the terminal
+1. Open terminal and navigate to MVC BLOG-POST folder
+2. Type npm init -y into terminal to create a new .json file
+3. Type npm i into terminal
+4. Type npm i express into terminal
+5. Type npm i express-handlebars into terminal
+6. Type npm i express-session into terminal
+7. Type npm i mysql2 into terminal
+8. Type npm i sequelize into terminal
+9. Type npm i dotenv into terminal
+10. Type npm i bcrypt into terminal
+11. Type npm i connect-session-sequelize into terminal
+12. Navigate to the db folder
+13. Type mysql -u root -p into terminal
+14. Enter your password into terminal
+15. Type source db/schema.sql into terminal
+16. Type quit into terminal
+17. Navigate back to the blog_post in terminal
+18. Type node seeds/index.js so the seeds will populate the database
+19. Type npm start into the terminal
 You will see the Now Listening indication and can access on your localhost
