@@ -1,5 +1,8 @@
 # MVC-Blog-Post
 
+![Screenshot (60)](https://user-images.githubusercontent.com/108914519/219268716-c71ad581-5e59-470a-a224-d61980b32427.png)
+
+
 User Story
 AS A developer who writes about tech
 I WANT a CMS-style blog site
